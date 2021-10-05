@@ -1,41 +1,87 @@
-.App {
+.first-page{
+  background-color: white;
+  height: 100%
+}
+.page-header{
+  width: 100%;
+  height: 50px;
+  background-color: darkgray;
   text-align: center;
+  position: fixed;
+  top: 0px;
+  margin-top: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-body{
-  background-color: goldenrod;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.article-box{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  margin: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.card{
+  width: 400px;
+  height: 400px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  margin: 40px;
+  overflow-y:scroll;
+  box-shadow: gray 3px 3px 3px 3px;
+}
+.card::-webkit-scrollbar {
+  width: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-body{
+  padding:10px;
 }
+
+.header-card{
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.header-card img{
+  width: 800px;
+  height: 400px;
+}
+
+.header-card.card-body{
+  top: 10px;
+  position: absolute;
+
+}
+
+img{
+  width: 400px;
+  height: 200px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+label,a{
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.footer{
+  /* margin-top: 180px; */
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+  margin-top: 10%;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
