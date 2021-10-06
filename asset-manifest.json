@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/useless/static/css/main.a617e044.chunk.css",
-    "main.js": "/useless/static/js/main.0613a31b.chunk.js",
-    "main.js.map": "/useless/static/js/main.0613a31b.chunk.js.map",
-    "runtime-main.js": "/useless/static/js/runtime-main.94e9e864.js",
-    "runtime-main.js.map": "/useless/static/js/runtime-main.94e9e864.js.map",
-    "static/js/2.f6bed6c3.chunk.js": "/useless/static/js/2.f6bed6c3.chunk.js",
-    "static/js/2.f6bed6c3.chunk.js.map": "/useless/static/js/2.f6bed6c3.chunk.js.map",
-    "static/js/3.18edeb97.chunk.js": "/useless/static/js/3.18edeb97.chunk.js",
-    "static/js/3.18edeb97.chunk.js.map": "/useless/static/js/3.18edeb97.chunk.js.map",
-    "index.html": "/useless/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/useless/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.f6bed6c3.chunk.js.LICENSE.txt": "/useless/static/js/2.f6bed6c3.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/useless/static/media/logo.6ce24c58.svg"
+    "main.css": "/gajagj/genesysproject/static/css/main.c45c1b05.chunk.css",
+    "main.js": "/gajagj/genesysproject/static/js/main.9cbb0988.chunk.js",
+    "main.js.map": "/gajagj/genesysproject/static/js/main.9cbb0988.chunk.js.map",
+    "runtime-main.js": "/gajagj/genesysproject/static/js/runtime-main.ed63a6de.js",
+    "runtime-main.js.map": "/gajagj/genesysproject/static/js/runtime-main.ed63a6de.js.map",
+    "static/js/2.0f88e4c5.chunk.js": "/gajagj/genesysproject/static/js/2.0f88e4c5.chunk.js",
+    "static/js/2.0f88e4c5.chunk.js.map": "/gajagj/genesysproject/static/js/2.0f88e4c5.chunk.js.map",
+    "static/js/3.b66e6e86.chunk.js": "/gajagj/genesysproject/static/js/3.b66e6e86.chunk.js",
+    "static/js/3.b66e6e86.chunk.js.map": "/gajagj/genesysproject/static/js/3.b66e6e86.chunk.js.map",
+    "index.html": "/gajagj/genesysproject/index.html",
+    "static/css/main.c45c1b05.chunk.css.map": "/gajagj/genesysproject/static/css/main.c45c1b05.chunk.css.map",
+    "static/js/2.0f88e4c5.chunk.js.LICENSE.txt": "/gajagj/genesysproject/static/js/2.0f88e4c5.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/gajagj/genesysproject/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.94e9e864.js",
-    "static/js/2.f6bed6c3.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.0613a31b.chunk.js"
+    "static/js/runtime-main.ed63a6de.js",
+    "static/js/2.0f88e4c5.chunk.js",
+    "static/css/main.c45c1b05.chunk.css",
+    "static/js/main.9cbb0988.chunk.js"
   ]
 }
