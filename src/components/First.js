@@ -56,6 +56,7 @@ export default class Articles extends React.Component {
 
     showCategories = () => {
         return <ul className="category-links">
+            <li className="category-head">News Categories</li>
             <li onClick={()=>this.handleCategoryChange("business")}>Business</li>
             <li onClick={()=>this.handleCategoryChange("politics")}>Politics</li>
             <li onClick={()=>this.handleCategoryChange("sports")}>Sports</li>
