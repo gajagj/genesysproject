@@ -11,7 +11,7 @@ export default class Articles extends React.Component {
         }
     }
     defaultApiCall = (countryCd = "us", categoryCd = "business") => {
-        axios.get(`https://newsapi.org/v2/top-headlines?country=${countryCd}&category=${categoryCd}&apiKey=cc3874e3e2f2416fa07bc891e13353a1`).then(res => {
+        axios.get(`https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?country=${countryCd}&category=${categoryCd}&apiKey=cc3874e3e2f2416fa07bc891e13353a1`).then(res => {
             console.log("response", res.data)
             this.setState({ articles: res.data.articles })
         })
